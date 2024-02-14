@@ -1,0 +1,58 @@
+html{
+    background: url(images/hospital-bg.jpg)no-repeat center fixed;
+background-size: cover;
+}
+body{
+    font-family:prompt;
+    background: rgba(255, 255, 255, 0.7);
+    width: 600px;
+    padding: 50px 100px;
+    margin: 25px auto;
+    text-align: center;
+}
+.sub{
+    color: grey;
+}
+#doctor{
+    border: 2px solid black ;  
+    border-radius: 6px;  
+    margin: 20px;
+    width: 200px;
+}
+#doctor:hover{
+    border-color: red;
+}
+#patient{
+    border: 2px solid black ;
+    border-radius: 6px; 
+    margin: 20px; 
+    width: 200px;
+}
+#patient:hover{
+    border-color: red;
+}
+#log{
+   background-color: blue;
+   color: white;
+   padding: 7px 15px;
+   border-radius: 5px;
+}
+#log:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+a{
+    color: darkblue;
+}
+#stuff{
+   background: lightblue;
+   border: 2px solid blue;
+   border-radius: 5px;
+}
+#text{
+    padding: 10px;
+    border-radius: 5px;
+}
+#j{
+    font-style: italic;
+}
